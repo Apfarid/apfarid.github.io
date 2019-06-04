@@ -1,0 +1,418 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+/*  HEADER */
+
+
+h2{
+    font-size: 35px;
+}
+
+.logo{
+    display: flex;
+    margin: 0;
+}
+
+header{
+    background-color: rgba(48,48,48,0.5);
+    color: white;
+    float: right;
+    width: 100%;
+    position: fixed;
+}
+
+header menu{
+    color: white;
+    display: flex;    
+    margin-left: 10px;
+    padding: 10px 15px;
+    text-decoration: none;    
+}
+
+
+header .container{
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+
+header .container .logo {
+    width: 10%;
+}
+header nav a {
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+header nav a.active {
+    background: #2E5459;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.detalle{
+
+    height: 400px;
+}
+
+
+/*SECCION HERO*/
+.hero{
+    align-items: center;
+    background: #2E5459;
+    display: flex;
+    justify-content: space-between;    
+    padding-top: 100px;
+}
+
+.presentacion{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+    width: 50%;    
+}
+
+.presentacion p{
+    font-size: 65px;
+}
+
+.myselfImg{
+    object-fit: cover;      
+}
+
+
+/*SECCION YO*/
+
+.yo{
+    display: flex;
+    background-color: #f5f5f2;
+    font-size: 15px; 
+    padding: 80px 0;
+}
+
+.detalle {
+    align-items: center;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 20px;    
+}
+
+/*  SECCION PERFIL */
+
+
+.details{
+    margin-top: 60px;
+}
+
+
+.perfil{
+    background-color: #161616;
+    font-size: 25px;
+}
+
+.perfil .container{
+   display: flex;
+   justify-content: space-between;
+}
+
+.perfil figure{
+    margin-bottom: 0;
+}
+
+.perfil h2{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.perfil h3{
+    color: #2E5459;
+}
+
+.perfil p{
+    color: white;
+}
+
+
+/*  SECCION EDUCACION  */
+
+
+
+.educacion{
+    background: #f5f5f2;
+    color: #161616;
+    display: flex;
+    
+}
+
+.educacion .container{
+    align-content: center;
+    align-items: flex-start;
+    background: #f5f5f2;
+    display: flex;    
+}
+
+
+.educacion li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.edu{
+    align-items: center;
+    align-content: flex-start;
+    display: flex;
+    justify-content: center;
+}
+
+.edu ul, p{
+    margin: 0;
+    font-size: 25px;
+    padding-left: 90px;
+}
+
+.estudios{
+    padding-top: 100px;
+}
+
+.punto::before{
+    content: ". ";
+    color: #161616;
+}
+
+.progress-bar {
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;           
+    height: 25px;
+    width: 450px;
+}
+
+
+
+/*  SECCION PORTAFORLIO*/
+
+
+#portafolio {
+    align-items: center;
+    background-color: #161616;
+    display: flex;
+    height: 600px;
+}
+
+#portafolio h2{ 
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#portafolio .box {
+    display: inline-block;
+    background-color: white;
+    margin: 1%;
+    text-align: center;
+    width: 30%;    
+}
+
+#portafolio .box p {
+    color: #666;
+    padding: 10px;
+}
+
+#portafolio .box img {
+    width: 100%;
+    
+}
+
+
+/* SECCION CONTACTAME*/
+
+.name{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.contactame, .formulario{
+    background-color: #f5f5f2;
+    padding: 50px 0 90px;
+    text-align: center;
+}
+
+.contactame .social{
+    margin-top: 50px;
+}
+
+.contactame .social a{
+    border-radius: 50%;
+    background-color: #161616;
+    color: white;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 20px;
+    width: 50px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s; 
+
+
+}
+
+.contactame .social a:hover {
+    background-color: #2E5459;
+
+}
+
+.formulario input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 20px;
+    width: 400px;
+}
+
+.formulario textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 20px 0;
+    padding: 20px;
+    width: 400px;
+}
+
+.formulario button {
+    background-color: #161616;
+    border-color: #161616;
+    border-radius: 3px;
+    color: white;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 40px;
+}
+
+
+.container{
+   width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure h2 {
+    border-top: 100px;
+}
+
+
+footer{
+    background-color: #161616;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding:  90px 0;
+}
+
+
+/* BARRA*/
+
+.progress-bar span {
+    display: inline-block;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    transition: width .4s ease-in-out; 
+    z-index: 1;
+  }
+  
+  /**** GRADIENTS ****/
+  .blue span {
+      background-color: #2E5459;   
+      z-index: 1;
+    }
+    
+    .orange span {
+        background-color: #fecf23;
+        background-image: linear-gradient(top, #fecf23, #fd9215);  
+        z-index: 1;
+    }   
+    
+    .green span {
+        background-color: #a5df41;
+        background-image: linear-gradient(top, #a5df41, #4ca916);  
+        z-index: 1;
+    }
+    
+    /**** STRIPES ****/
+    .stripes span {
+        background-size: 30px 30px;
+        background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+        transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+        transparent 75%, transparent);     
+        z-index: 1;       
+        
+        animation: animate-stripes 3s linear infinite;             
+    }
+    
+    @keyframes animate-stripes {
+        0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+    }
+    
+    /**** SHINE ****/
+    .shine span {
+        position: relative;
+    }
+    
+    .shine span::after {
+        content: '';
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #fff;
+        border-radius: 3px;
+        animation: animate-shine 2s ease-out infinite;    
+        z-index: 1;         
+    }
+    
+    @keyframes animate-shine {
+        0% {opacity: 0; width: 0;}
+        50% {opacity: .5;}
+        100% {opacity: 0; width: 95%;}
+  
+    }
+    
+    /**** GLOW ****/
+    .glow span {
+        box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;    
+        animation: animate-glow 1s ease-out infinite;  
+        z-index: 1;        
+    }
+    
+    @keyframes animate-glow {
+        0% { box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;} 
+        50% { box-shadow: 0 5px 5px rgba(255, 255, 255, .3) inset, 0 -5px 5px rgba(255, 255, 255, .3) inset;} 
+        100% { box-shadow: 0 5px 5px rgba(255, 255, 255, .7) inset, 0 -5px 5px rgba(255, 255, 255, .7) inset;}
+        
+    }
+    .otro{
+        margin: 10px 0 30px
+    }
